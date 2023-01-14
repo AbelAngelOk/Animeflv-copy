@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+body {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 400%;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+}
+
+.mainBlock {
+    width: 100%;
+    height: 800px;
+}
+
+.mainBlock ul {
+    padding: 5%;
+    gap: 5%;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav {
+    width: 30%;
+    height: 720px;
+}
+
+#section {
+    width: 60%;
+    height: 720px;
+}
+
+.header, #nav, #section {
+    background-color: #2f353a;
+}
