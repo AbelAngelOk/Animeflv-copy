@@ -1,16 +1,17 @@
 @media (max-width: 765px) {
-    .mainBlock, #nav, #section {
-        flex-direction: column;
-        padding: 0;
-    }
 
     .mainBlock ul {
         justify-content: flex-start;
+        flex-wrap: initial;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
     }
-
-    #nav, #section {
+    
+    #nav, #section, #header {
         width: 90%;
         padding: 5%;
+        display: block;
     }
     
     #nav {
@@ -19,6 +20,11 @@
     }
 
     #section {
-        height: 90px;
+        height: auto;
+    }
+
+    .contenedor { 
+        width: 300px;
+        height: 200px;
     }
 }
